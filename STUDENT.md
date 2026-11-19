@@ -5,7 +5,7 @@
 - Lớp: L2
 - Tài khoản GitHub: xanhhangreal
 - Repo bài nộp: https://github.com/xanhhangreal/K5-L23-DAY08-2A202603117-NguyenXuanAnh-AIPrelabel
-- Commit chốt bài: sẽ ghi hash commit kết quả đã kiểm tra trước khi push.
+- Commit chốt kết quả (nhãn, calibration, QC và báo cáo): `e9147efa87b062c33296688fbaf12c4409e491bc`. Commit ghi nhận hash này nằm ngay sau; nhánh nộp là `main`.
 - Máy: Windows, RAM khoảng 16 GB, Intel Iris Xe; model chạy CPU.
 - CVAT: Docker, phiên bản 2.74.1 theo server đang chạy.
 
