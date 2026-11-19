@@ -1,0 +1,248 @@
+[
+  {
+    "name": "sam21_candidate_img_013_1",
+    "image": "img_013.jpg",
+    "box": [
+      88,
+      12.65,
+      934.12,
+      680.45
+    ],
+    "positive": [
+      [
+        511,
+        346
+      ],
+      [
+        460,
+        490
+      ],
+      [
+        450,
+        620
+      ],
+      [
+        470,
+        100
+      ]
+    ],
+    "negative": [
+      [
+        778,
+        285
+      ],
+      [
+        811,
+        485
+      ],
+      [
+        726,
+        328
+      ],
+      [
+        788,
+        428
+      ]
+    ],
+    "model": "SAM 2.1 base",
+    "area_px": 289752,
+    "seconds": 3.625,
+    "probes": [
+      {
+        "point": [
+          511,
+          346
+        ],
+        "label": 1,
+        "mask_value": true
+      },
+      {
+        "point": [
+          460,
+          490
+        ],
+        "label": 1,
+        "mask_value": true
+      },
+      {
+        "point": [
+          450,
+          620
+        ],
+        "label": 1,
+        "mask_value": true
+      },
+      {
+        "point": [
+          470,
+          100
+        ],
+        "label": 1,
+        "mask_value": true
+      },
+      {
+        "point": [
+          778,
+          285
+        ],
+        "label": 0,
+        "mask_value": true
+      },
+      {
+        "point": [
+          811,
+          485
+        ],
+        "label": 0,
+        "mask_value": false
+      },
+      {
+        "point": [
+          726,
+          328
+        ],
+        "label": 0,
+        "mask_value": false
+      },
+      {
+        "point": [
+          788,
+          428
+        ],
+        "label": 0,
+        "mask_value": false
+      }
+    ],
+    "mask_source": "SAM output without manual pixel editing",
+    "human_visual_check": false
+  },
+  {
+    "name": "sam21_candidate_img_023_2",
+    "image": "img_023.jpg",
+    "box": [
+      479.47,
+      168.07,
+      755.49,
+      484.69
+    ],
+    "positive": [
+      [
+        596,
+        236
+      ],
+      [
+        569,
+        393
+      ],
+      [
+        701,
+        402
+      ],
+      [
+        508,
+        460
+      ]
+    ],
+    "negative": [
+      [
+        634,
+        322
+      ],
+      [
+        665,
+        293
+      ],
+      [
+        703,
+        298
+      ],
+      [
+        737,
+        333
+      ],
+      [
+        760,
+        402
+      ]
+    ],
+    "model": "SAM 2.1 base",
+    "area_px": 44427,
+    "seconds": 3.469,
+    "probes": [
+      {
+        "point": [
+          596,
+          236
+        ],
+        "label": 1,
+        "mask_value": true
+      },
+      {
+        "point": [
+          569,
+          393
+        ],
+        "label": 1,
+        "mask_value": true
+      },
+      {
+        "point": [
+          701,
+          402
+        ],
+        "label": 1,
+        "mask_value": true
+      },
+      {
+        "point": [
+          508,
+          460
+        ],
+        "label": 1,
+        "mask_value": true
+      },
+      {
+        "point": [
+          634,
+          322
+        ],
+        "label": 0,
+        "mask_value": false
+      },
+      {
+        "point": [
+          665,
+          293
+        ],
+        "label": 0,
+        "mask_value": false
+      },
+      {
+        "point": [
+          703,
+          298
+        ],
+        "label": 0,
+        "mask_value": false
+      },
+      {
+        "point": [
+          737,
+          333
+        ],
+        "label": 0,
+        "mask_value": false
+      },
+      {
+        "point": [
+          760,
+          402
+        ],
+        "label": 0,
+        "mask_value": false
+      }
+    ],
+    "mask_source": "SAM output without manual pixel editing",
+    "human_visual_check": false
+  }
+]

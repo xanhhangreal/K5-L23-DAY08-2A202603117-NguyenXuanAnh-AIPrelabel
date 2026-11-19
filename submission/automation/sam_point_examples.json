@@ -1,0 +1,99 @@
+[
+  {
+    "image": "img_013.jpg",
+    "model": "SAM 2.1 base",
+    "box": "88.00,12.65,934.12,680.45",
+    "positive_point": "See automation/mask_round2/img013_prompts_and_operation.json",
+    "positive_points": 14,
+    "negative_points": 9,
+    "prompt_source": "Codex selected image coordinates; not learner clicks",
+    "seconds": 17.703,
+    "file": "submission/masks/sam21_candidate_img_013_1.jpg",
+    "human_visual_check": false,
+    "stdout": "Refined mask: 283547 px; 5 SAM prompt groups; vehicle AND NOT people",
+    "assistant_visual_check": true,
+    "visual_reviewer": "Codex_visual_assisted",
+    "visual_observation": "Người lái và phần người phía sau đã được loại bằng mask người riêng, giữ mái/thân/bánh xe chính. Chưa thấy phần tay/chân bị lấy lẫn rõ ở tỷ lệ kiểm; còn giới hạn ở mép mảnh và vùng hở, không có mask chuẩn để đo IoU.",
+    "visual_status": "refined_visual_check_no_obvious_person_leak_not_ground_truth",
+    "round": 2,
+    "method": "SAM vehicle mask minus union of four SAM person masks",
+    "area_px": 283547
+  },
+  {
+    "image": "img_023.jpg",
+    "model": "SAM 2.1 base",
+    "box": "727.15,59.03,954.12,277.03",
+    "positive_point": "840.63,168.03",
+    "positive_points": 1,
+    "negative_points": 0,
+    "prompt_source": "Local YOLOE candidate bounding box and its center; not a human click",
+    "seconds": 7.078,
+    "file": "submission/masks/sam21_candidate_img_023_1.jpg",
+    "human_visual_check": false,
+    "stdout": "Mask: 35818 px (4.6% ảnh), 1 polygon -> submission\\masks\\sam21_candidate_img_023_1.jpg",
+    "assistant_visual_check": true,
+    "visual_reviewer": "Codex_visual_assisted",
+    "visual_observation": "Ở tỷ lệ toàn ảnh, mask bám mái và thân tuk-tuk phía sau, chưa thấy lỗi lớn. Chi tiết mép kính, khoảng hở và bánh chưa có mask chuẩn để đo sai số; không kết luận đạt IoU.",
+    "visual_status": "no_large_error_seen_not_ground_truth"
+  },
+  {
+    "image": "img_023.jpg",
+    "model": "SAM 2.1 base",
+    "box": "479.47,168.07,755.49,484.69",
+    "positive_point": "596,236",
+    "positive_points": 4,
+    "negative_points": 5,
+    "prompt_source": "Codex selected vehicle foreground points and person exclusion points; not learner clicks",
+    "seconds": 3.469,
+    "file": "submission/masks/sam21_candidate_img_023_2.jpg",
+    "human_visual_check": false,
+    "stdout": "Refined mask: 44427 px; 4 positive and 5 negative points",
+    "assistant_visual_check": true,
+    "visual_reviewer": "Codex_visual_assisted",
+    "visual_observation": "Đổi điểm dương sang phần xe và thêm điểm âm trên người; phần tay/khoang người đã được loại rõ hơn, vẫn giữ mái, thân và bánh. Chưa có mask chuẩn để đo IoU hoặc chứng minh mọi chi tiết đúng.",
+    "visual_status": "refined_visual_check_no_obvious_person_leak_not_ground_truth",
+    "round": 2,
+    "method": "SAM 2.1 box and corrected positive/negative prompts",
+    "positive_coordinates": [
+      [
+        596,
+        236
+      ],
+      [
+        569,
+        393
+      ],
+      [
+        701,
+        402
+      ],
+      [
+        508,
+        460
+      ]
+    ],
+    "negative_coordinates": [
+      [
+        634,
+        322
+      ],
+      [
+        665,
+        293
+      ],
+      [
+        703,
+        298
+      ],
+      [
+        737,
+        333
+      ],
+      [
+        760,
+        402
+      ]
+    ],
+    "area_px": 44427
+  }
+]

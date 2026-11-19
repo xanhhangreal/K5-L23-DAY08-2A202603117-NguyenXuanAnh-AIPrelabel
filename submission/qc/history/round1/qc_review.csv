@@ -1,0 +1,9 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,19,thua,Codex_visual_assisted,"Hai box #19 và #20 cùng xe ba bánh tiền cảnh; #19 chỉ ôm thùng xe, #20 ôm cả xe và mái. Giữ một box theo đối tượng vật lý, không đếm hai xe."
+img_006.jpg,48,sai_vi_tri_kich_thuoc,Codex_visual_assisted,"Box bicycle x=557.7,y=432.4 bỏ ra ngoài phần tay lái và giỏ cố định nhô trái/lên trên. Cần ôm cả phần xe nhìn thấy, tách khỏi người."
+img_006.jpg,50,sai_vi_tri_kich_thuoc,Codex_visual_assisted,Box person bắt đầu x=611.4 nhưng cẳng tay trái người dắt xe vươn sang trái ngoài box; cần mở biên theo phần người nhìn thấy.
+img_014.jpg,108,sai_vi_tri_kich_thuoc,Codex_visual_assisted,"Box người lái xe gần camera bắt đầu y=281.3, trong khi đỉnh mũ khoảng y=289; dư nền phía trên vượt dung sai khoảng 2 px. Cần chỉnh biên, không suy chất lượng từ conf 0.83."
+img_031.jpg,399,thua,Codex_visual_assisted,Box person nằm trên quần áo màu vàng/xanh treo trong cửa hàng; không có người thật.
+img_031.jpg,400,thua,Codex_visual_assisted,"Box person ở mép trái ôm quần áo treo, không phải người thật."
+img_031.jpg,398,sai_vi_tri_kich_thuoc,Codex_visual_assisted,Box người bán hàng kết thúc x=515 nhưng cánh tay/bàn tay phải nhìn thấy kéo tới khoảng x=590 trên giỏ xe; box cắt mất phần người.
+img_035.jpg,451,sai_vi_tri_kich_thuoc,Codex_visual_assisted,Box người phụ nữ ngồi áo xanh kết thúc x=191; chân vắt ngang và bàn chân nhìn thấy vươn ra ngoài biên phải. Cần ôm cả phần chân thấy được.

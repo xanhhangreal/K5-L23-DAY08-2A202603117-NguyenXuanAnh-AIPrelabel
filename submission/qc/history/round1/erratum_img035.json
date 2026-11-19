@@ -1,0 +1,10 @@
+{
+  "original_claim": "img_035 release object #451 missing crossed foot",
+  "reassessment": "False positive: coordinate-grid inspection shows the crossed foot within the original right edge at about x=191 within tolerance. Original CVAT shape 3064 restored exactly.",
+  "original_recorded_errors": 8,
+  "confirmed_errors": 7,
+  "original_sample_objects": 89,
+  "confirmed_error_images": 4,
+  "total_sample_images": 5,
+  "policy": "Keep original round1 report and CSV unchanged; attach this erratum."
+}

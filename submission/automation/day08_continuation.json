@@ -1,0 +1,187 @@
+{
+  "task_id": 27,
+  "job_id": 27,
+  "human_reviewed_images": 10,
+  "human_review_minutes": 30,
+  "tool_assisted_images": 14,
+  "protected_shapes": 119,
+  "protected_sha256": "0bf01b199d8b244dd0afed8378788b56f52deca4e559d5743774fb202881874a",
+  "protected_exact_match": true,
+  "tool_shapes": 357,
+  "total_shapes": 476,
+  "human_review_complete": false,
+  "completed_at_utc": "2026-11-19T04:04:24.257109+00:00",
+  "tool_manifests": [
+    {
+      "backend": "YOLO11l + SAM ViT-B",
+      "human_review_complete": false,
+      "status": "automatic_prelabels_ready",
+      "started_at_utc": "2026-11-19T04:01:53.897629+00:00",
+      "torch": "2.14.1+cpu",
+      "ultralytics": "8.4.210",
+      "device": "cpu",
+      "confidence": 0.25,
+      "imgsz": 1024,
+      "max_det": 120,
+      "classes": [
+        "person",
+        "bicycle",
+        "motorcycle",
+        "car",
+        "bus",
+        "truck"
+      ],
+      "weights_sha256": {
+        "yolo11l.pt": "9ebd0e09d59811db4b1d61e2bc6730649608b1ac47f8dd01e2da6bca7c20023f",
+        "sam_vit_b_01ec64.pth": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912"
+      },
+      "images": [
+        {
+          "file_name": "img_018.jpg",
+          "sha256": "f79c406975e19a987026be4e2b7543249e660db2e5f48439f9c0e0935cb17457",
+          "objects": 47,
+          "seconds": 12.77
+        },
+        {
+          "file_name": "img_021.jpg",
+          "sha256": "7371e900f853c55e5ae0cf352a5f8a407f88db95c6c88b0ea2c0acdec99535c4",
+          "objects": 40,
+          "seconds": 11.5
+        },
+        {
+          "file_name": "img_022.jpg",
+          "sha256": "c1d0695b229c56cb410aa4aa579ca01e5d9ea463762ea3ba6e78968f2a7f8f23",
+          "objects": 18,
+          "seconds": 10.06
+        },
+        {
+          "file_name": "img_023.jpg",
+          "sha256": "8751b685de7137d53242e4e308394d485dd6665c8ab827b41877e47a67df3d79",
+          "objects": 9,
+          "seconds": 9.35
+        },
+        {
+          "file_name": "img_024.jpg",
+          "sha256": "956ba5f772f2b9ee3bf90ed8cc5cc8efa6854a77a55c51de2690130856e493fd",
+          "objects": 41,
+          "seconds": 11.25
+        },
+        {
+          "file_name": "img_025.jpg",
+          "sha256": "7cdb784eb6e9b7aeb438feef9e478fa5ebdcafe32dc295a92aeaa5a81ebd38a1",
+          "objects": 20,
+          "seconds": 9.75
+        },
+        {
+          "file_name": "img_026.jpg",
+          "sha256": "8991d6555e3cfbb30e040d07b6cb0b815e6eb08147ccc4ca88532ae3b270b986",
+          "objects": 18,
+          "seconds": 10.08
+        }
+      ],
+      "completed_at_utc": "2026-11-19T04:03:10.103336+00:00"
+    },
+    {
+      "backend": "YOLO11l + SAM ViT-B",
+      "human_review_complete": false,
+      "status": "automatic_prelabels_ready",
+      "started_at_utc": "2026-11-19T04:00:09.923202+00:00",
+      "torch": "2.14.1+cpu",
+      "ultralytics": "8.4.210",
+      "device": "cpu",
+      "confidence": 0.25,
+      "imgsz": 1024,
+      "max_det": 120,
+      "classes": [
+        "person",
+        "bicycle",
+        "motorcycle",
+        "car",
+        "bus",
+        "truck"
+      ],
+      "weights_sha256": {
+        "yolo11l.pt": "9ebd0e09d59811db4b1d61e2bc6730649608b1ac47f8dd01e2da6bca7c20023f",
+        "sam_vit_b_01ec64.pth": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912"
+      },
+      "images": [
+        {
+          "file_name": "img_027.jpg",
+          "sha256": "f3daaadab30b9ed75b07e436fbef63f8437357dd9f1148c71e0a16734ef4899d",
+          "objects": 24,
+          "seconds": 16.9
+        },
+        {
+          "file_name": "img_028.jpg",
+          "sha256": "0104e7f63cd5727317a7949c64500e3b3911c694766b6a051ae629fda5deeb4c",
+          "objects": 39,
+          "seconds": 13.01
+        },
+        {
+          "file_name": "img_029.jpg",
+          "sha256": "9503ffc8dde0d8c195a4a709a941f7e68903d3e63f30f07ae57f347c41b105da",
+          "objects": 28,
+          "seconds": 11.01
+        },
+        {
+          "file_name": "img_031.jpg",
+          "sha256": "bf1f55bed168c30b3fa7f92fc7298f619497d93fb49183cf1be629103063ba42",
+          "objects": 5,
+          "seconds": 9.35
+        },
+        {
+          "file_name": "img_033.jpg",
+          "sha256": "80b7b5d134a4fd4c1dafc44c35193fafb9412c103825d02a507fbf91efcbe9de",
+          "objects": 16,
+          "seconds": 10.05
+        },
+        {
+          "file_name": "img_034.jpg",
+          "sha256": "c6b8943682b86c8137365a89c2c439405d22bcec443b3d6de07b568f20e35be0",
+          "objects": 32,
+          "seconds": 11.0
+        },
+        {
+          "file_name": "img_035.jpg",
+          "sha256": "60fe73ff84a7f71719a190b53ca297aa927dd49b20ab9cb6592069a4694f2f4d",
+          "objects": 31,
+          "seconds": 11.45
+        }
+      ],
+      "completed_at_utc": "2026-11-19T04:01:36.104322+00:00"
+    }
+  ],
+  "human_images": [
+    "img_003.jpg",
+    "img_004.jpg",
+    "img_005.jpg",
+    "img_006.jpg",
+    "img_008.jpg",
+    "img_009.jpg",
+    "img_010.jpg",
+    "img_013.jpg",
+    "img_014.jpg",
+    "img_017.jpg"
+  ],
+  "tool_images": [
+    "img_018.jpg",
+    "img_021.jpg",
+    "img_022.jpg",
+    "img_023.jpg",
+    "img_024.jpg",
+    "img_025.jpg",
+    "img_026.jpg",
+    "img_027.jpg",
+    "img_028.jpg",
+    "img_029.jpg",
+    "img_031.jpg",
+    "img_033.jpg",
+    "img_034.jpg",
+    "img_035.jpg"
+  ],
+  "disclosure": "Human reviewed through img_017.jpg (10 task images, 30 minutes reported); local models processed the remaining 14 images. Full-batch trap score measures a mixed workflow, not independent human-only review. Tool images still require visual quality inspection.",
+  "qc_status": "assistant_checked_5_of_24_images_rework",
+  "job_marked_completed": false,
+  "masks_checked_by_assistant": 3,
+  "decision": "REWORK"
+}

@@ -1,0 +1,64 @@
+{
+  "deleted_cvat_ids": [
+    2462,
+    3012,
+    3013
+  ],
+  "updated_points": {
+    "2488": [
+      550.0,
+      428.0,
+      644.0,
+      633.0
+    ],
+    "2492": [
+      584.0,
+      334.03,
+      712.39,
+      623.46
+    ],
+    "2531": [
+      610.7,
+      289.0,
+      761.63,
+      527.09
+    ],
+    "3011": [
+      347.0,
+      135.0,
+      593.0,
+      434.0
+    ]
+  },
+  "unchanged_shapes": 468,
+  "before_annotations": 476,
+  "after_annotations": 473,
+  "before_sha256": "099e8223e4eee18738f405b1f6802c692b3f3ab9dd84649a7ef3172ae1aaf5ef",
+  "after_sha256": "8c8824066e6d200bb1e0b4867dbff22d928027f74397cd9220a6af84157d11bf",
+  "authorization": "User explicitly requested correction of the eight recorded QC findings, including targets in previously protected frames. No other labels modified.",
+  "erratum": "Round1 img_035 object 451 was a false positive on re-inspection with coordinate grid: visible crossed foot is contained within the original box tolerance. Restored CVAT shape 3064 exactly; do not count as repaired error.",
+  "confirmed_fixes": {
+    "deletions": 3,
+    "box_edits": 5
+  },
+  "extra_round2_fix": {
+    "image": "img_008.jpg",
+    "release_object_id": 73,
+    "cvat_id": 2711,
+    "points": [
+      152.0,
+      174.9,
+      261.0,
+      260.0
+    ]
+  },
+  "final_verification": {
+    "cvat_annotations": 473,
+    "unchanged_shapes": 468,
+    "deleted_shapes": 3,
+    "box_edits": 5,
+    "original_img035_restored": true,
+    "zero_intersection_with_sam_driver_mask": true,
+    "ground_truth_mask_iou_available": false
+  }
+}

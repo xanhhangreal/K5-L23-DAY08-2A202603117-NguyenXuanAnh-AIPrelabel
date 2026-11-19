@@ -1,0 +1,37 @@
+[
+  {
+    "round1_object_id": 19,
+    "cvat_id": 2462,
+    "status": "deleted_duplicate_or_false_person"
+  },
+  {
+    "round1_object_id": 48,
+    "cvat_id": 2488,
+    "status": "box_corrected_and_rechecked"
+  },
+  {
+    "round1_object_id": 50,
+    "cvat_id": 2492,
+    "status": "box_corrected_and_rechecked"
+  },
+  {
+    "round1_object_id": 108,
+    "cvat_id": 2531,
+    "status": "box_corrected_and_rechecked"
+  },
+  {
+    "round1_object_id": 398,
+    "cvat_id": 3011,
+    "status": "box_corrected_and_rechecked"
+  },
+  {
+    "round1_object_id": 399,
+    "cvat_id": 3012,
+    "status": "deleted_duplicate_or_false_person"
+  },
+  {
+    "round1_object_id": 400,
+    "cvat_id": 3013,
+    "status": "deleted_duplicate_or_false_person"
+  }
+]

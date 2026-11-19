@@ -1,0 +1,60 @@
+{
+  "round": 2,
+  "review_date": "2026-11-19",
+  "reviewer": "Codex_visual_assisted_round2_after_fix",
+  "seed": 43,
+  "qc_images": 5,
+  "qc_objects": 95,
+  "recorded_error_objects": 0,
+  "error_images": 0,
+  "findings": [
+    {
+      "image": "img_004.jpg",
+      "object_id": "",
+      "error_type": "khong",
+      "reviewer": "Codex_visual_assisted_round2_after_fix",
+      "note": "Chưa thấy lỗi chắc chắn sau đối chiếu ảnh gốc và overlay ở tỷ lệ kiểm; không có ground truth hoặc kiểm độc lập của người."
+    },
+    {
+      "image": "img_008.jpg",
+      "object_id": "",
+      "error_type": "khong",
+      "reviewer": "Codex_visual_assisted_round2_after_fix",
+      "note": "Đã sửa CVAT ID 2711: box bao phần đầu/vai nhìn thấy của người bán chuối; hiện là release ID #69. Không suy đoán phần thân bị chuối che. Lỗi #73 thuộc snapshot trước lần sửa này."
+    },
+    {
+      "image": "img_017.jpg",
+      "object_id": "",
+      "error_type": "khong",
+      "reviewer": "Codex_visual_assisted_round2_after_fix",
+      "note": "Chưa thấy lỗi chắc chắn sau đối chiếu ảnh gốc và overlay ở tỷ lệ kiểm; không có ground truth hoặc kiểm độc lập của người."
+    },
+    {
+      "image": "img_024.jpg",
+      "object_id": "",
+      "error_type": "khong",
+      "reviewer": "Codex_visual_assisted_round2_after_fix",
+      "note": "Crop xác nhận #256 xe van và #259 ô tô trắng phía sau là hai xe, không phải box trùng. Không ghi lỗi chắc chắn từ các vệt sáng chưa đủ rõ."
+    },
+    {
+      "image": "img_034.jpg",
+      "object_id": "",
+      "error_type": "khong",
+      "reviewer": "Codex_visual_assisted_round2_after_fix",
+      "note": "Không ghi lỗi lớp chắc chắn khi thiếu bằng chứng; ca xe bị che #426 chưa chốt truck hay three_wheeler, chuyển CAL-06 và giữ Hold. Hai người áo đỏ trên một xe là hai cá thể."
+    }
+  ],
+  "masks_refined": 2,
+  "confirmed_round1_fixes": 7,
+  "round1_false_positive": "img_035 #451; original shape restored",
+  "decision": "HOLD",
+  "human_independent_qc": false,
+  "release_coco_sha256": "15e39415b1115a231e941144d505946caf24a33229848b5aa44f29fb885136e3",
+  "limitations": "New random sample differs from round1; same assistant modified and inspected labels; not exhaustive or human-independent QC.",
+  "unresolved_cases": 1,
+  "unresolved_case_ids": [
+    "CAL-06"
+  ],
+  "additional_round2_fixes": 1,
+  "sample_reused_after_fix": true
+}

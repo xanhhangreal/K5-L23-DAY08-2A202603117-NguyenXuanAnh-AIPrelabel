@@ -1,0 +1,78 @@
+{
+  "review_date": "2026-11-19",
+  "reviewer": "Codex_visual_assisted",
+  "qc_images": 5,
+  "qc_objects": 89,
+  "recorded_error_objects": 8,
+  "error_images": 5,
+  "findings": [
+    {
+      "image": "img_003.jpg",
+      "object_id": "19",
+      "error_type": "thua",
+      "reviewer": "Codex_visual_assisted",
+      "note": "Hai box #19 và #20 cùng xe ba bánh tiền cảnh; #19 chỉ ôm thùng xe, #20 ôm cả xe và mái. Giữ một box theo đối tượng vật lý, không đếm hai xe."
+    },
+    {
+      "image": "img_006.jpg",
+      "object_id": "48",
+      "error_type": "sai_vi_tri_kich_thuoc",
+      "reviewer": "Codex_visual_assisted",
+      "note": "Box bicycle x=557.7,y=432.4 bỏ ra ngoài phần tay lái và giỏ cố định nhô trái/lên trên. Cần ôm cả phần xe nhìn thấy, tách khỏi người."
+    },
+    {
+      "image": "img_006.jpg",
+      "object_id": "50",
+      "error_type": "sai_vi_tri_kich_thuoc",
+      "reviewer": "Codex_visual_assisted",
+      "note": "Box person bắt đầu x=611.4 nhưng cẳng tay trái người dắt xe vươn sang trái ngoài box; cần mở biên theo phần người nhìn thấy."
+    },
+    {
+      "image": "img_014.jpg",
+      "object_id": "108",
+      "error_type": "sai_vi_tri_kich_thuoc",
+      "reviewer": "Codex_visual_assisted",
+      "note": "Box người lái xe gần camera bắt đầu y=281.3, trong khi đỉnh mũ khoảng y=289; dư nền phía trên vượt dung sai khoảng 2 px. Cần chỉnh biên, không suy chất lượng từ conf 0.83."
+    },
+    {
+      "image": "img_031.jpg",
+      "object_id": "399",
+      "error_type": "thua",
+      "reviewer": "Codex_visual_assisted",
+      "note": "Box person nằm trên quần áo màu vàng/xanh treo trong cửa hàng; không có người thật."
+    },
+    {
+      "image": "img_031.jpg",
+      "object_id": "400",
+      "error_type": "thua",
+      "reviewer": "Codex_visual_assisted",
+      "note": "Box person ở mép trái ôm quần áo treo, không phải người thật."
+    },
+    {
+      "image": "img_031.jpg",
+      "object_id": "398",
+      "error_type": "sai_vi_tri_kich_thuoc",
+      "reviewer": "Codex_visual_assisted",
+      "note": "Box người bán hàng kết thúc x=515 nhưng cánh tay/bàn tay phải nhìn thấy kéo tới khoảng x=590 trên giỏ xe; box cắt mất phần người."
+    },
+    {
+      "image": "img_035.jpg",
+      "object_id": "451",
+      "error_type": "sai_vi_tri_kich_thuoc",
+      "reviewer": "Codex_visual_assisted",
+      "note": "Box người phụ nữ ngồi áo xanh kết thúc x=191; chân vắt ngang và bàn chân nhìn thấy vươn ra ngoài biên phải. Cần ôm cả phần chân thấy được."
+    }
+  ],
+  "masks_checked": 3,
+  "mask_observations": [
+    "Mask bám mái, thân và bánh xe chính nhưng còn lấy lẫn một phần bàn tay/cánh tay và chân người lái; vùng khoang hở và chi tiết nhỏ cần rà lại. Cần thêm điểm âm trên người/nền rồi kiểm lại.",
+    "Ở tỷ lệ toàn ảnh, mask bám mái và thân tuk-tuk phía sau, chưa thấy lỗi lớn. Chi tiết mép kính, khoảng hở và bánh chưa có mask chuẩn để đo sai số; không kết luận đạt IoU.",
+    "Mask bám xe tuk-tuk giữa ảnh nhưng còn lấy một phần tay người lái trong khoang hở. Cần điểm âm trên phần người và rà lại biên quanh tay lái/giỏ."
+  ],
+  "limitations": "Visual inspection by an AI assistant, not independent human QC; only definite recorded issues counted, no exhaustive error guarantee; original labels retained for reproducible Rework findings.",
+  "release_coco_sha256": "ab517381a95c86cbd9663289eb779fad0f6cf7f957143f214ed52ddf968c064b",
+  "taxonomy_version": "v1.1",
+  "report_status": "completed_draft_for_learner_review",
+  "decision": "REWORK",
+  "labels_modified_by_qc": false
+}
