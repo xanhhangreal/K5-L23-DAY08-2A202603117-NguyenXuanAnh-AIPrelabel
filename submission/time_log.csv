@@ -1,1 +1,4 @@
 step,images,minutes,note
+gold_manual,4,30,
+batch_review,10,30,Thời gian học viên cung cấp trong chat; chỉ 10 ảnh batch đến img_017.jpg. Không phải thời gian review thủ công toàn bộ 24 ảnh.
+batch_review_tools_inference,14,2.626,Tổng thời gian xử lý từng ảnh do run_manifest đo; YOLO11l+SAM ViT-B trên CPU; không gồm nạp model và xuất CVAT; không phải thời gian học viên.
