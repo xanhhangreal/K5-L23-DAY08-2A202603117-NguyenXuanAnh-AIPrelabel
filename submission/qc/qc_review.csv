@@ -1,0 +1,6 @@
+image,object_id,error_type,reviewer,note
+img_004.jpg,,khong,Codex_visual_assisted_round2_after_fix,Chưa thấy lỗi chắc chắn sau đối chiếu ảnh gốc và overlay ở tỷ lệ kiểm; không có ground truth hoặc kiểm độc lập của người.
+img_008.jpg,,khong,Codex_visual_assisted_round2_after_fix,Đã sửa CVAT ID 2711: box bao phần đầu/vai nhìn thấy của người bán chuối; hiện là release ID #69. Không suy đoán phần thân bị chuối che. Lỗi #73 thuộc snapshot trước lần sửa này.
+img_017.jpg,,khong,Codex_visual_assisted_round2_after_fix,Chưa thấy lỗi chắc chắn sau đối chiếu ảnh gốc và overlay ở tỷ lệ kiểm; không có ground truth hoặc kiểm độc lập của người.
+img_024.jpg,,khong,Codex_visual_assisted_round2_after_fix,"Crop xác nhận #256 xe van và #259 ô tô trắng phía sau là hai xe, không phải box trùng. Không ghi lỗi chắc chắn từ các vệt sáng chưa đủ rõ."
+img_034.jpg,,khong,Codex_visual_assisted_round2_after_fix,"Không ghi lỗi lớp chắc chắn khi thiếu bằng chứng; ca xe bị che #426 chưa chốt truck hay three_wheeler, chuyển CAL-06 và giữ Hold. Hai người áo đỏ trên một xe là hai cá thể."

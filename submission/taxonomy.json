@@ -1,5 +1,5 @@
 {
-  "version": "v1.0",
+  "version": "v1.1",
   "ignore_class": "ignore_region",
   "classes": [
     {"name": "person", "definition": "Người (đi bộ, ngồi trên xe, ngồi bán hàng). Người ngồi trên xe vẫn có box riêng."},
